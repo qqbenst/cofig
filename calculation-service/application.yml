@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: calculation-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.17.0.3:8080/eureka/
+      
